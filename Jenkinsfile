@@ -1,5 +1,5 @@
 pipeline{
-    agent { Dev 
+    agent { label 'Dev' } 
 
     tools {nodejs '16.17.1'}
 
@@ -9,7 +9,6 @@ pipeline{
                 sh 'npm install'
             }
         }
-    }
     }
 
 }
