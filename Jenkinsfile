@@ -1,5 +1,5 @@
 pipeline{
-    agent Dev
+    agent { Dev }
 
     tools {nodejs '16.17.1'}
 
